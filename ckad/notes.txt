@@ -1,0 +1,3 @@
+docker save ckad:docker --output skad.tar    zapisuje zawartość katalogu ckad do archiwum skad.tar
+docker save ckad:docker | gzip > image.tar.gz    zapisuje zawartość katalogu ckad do archiwum image.tar.gz
+
